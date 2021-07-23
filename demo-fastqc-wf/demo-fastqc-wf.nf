@@ -15,7 +15,7 @@ params.publish_dir = ""  // set to empty string will disable publishDir
 params.input_file = ""
 params.cleanup = true
 
-include { demoFastqc } from './wfpr_modules/github.com/icgc-tcga-pancancer/demo-pkgs1/demo-fastqc@0.2.0/demo-fastqc' params([*:params, 'cleanup': false])
+include { demoFastqc } from './wfpr_modules/github.com/icgc-argo-workflows/demo-pkgs1/demo-fastqc@0.2.0.1/demo-fastqc' params([*:params, 'cleanup': false])
 include { cleanupWorkdir; getSecondaryFiles; getBwaSecondaryFiles } from './wfpr_modules/github.com/icgc-argo/demo-wfpkgs/demo-utils@1.3.0/main.nf' params([*:params, 'cleanup': false])
 
 
