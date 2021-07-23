@@ -1,8 +1,8 @@
 {
-    "name": "demo-fastqc-wf",
-    "version": "0.2.0.1",
+    "name": "demo-fastqc1-wf",
+    "version": "0.1.0",
     "description": "FastQC workflow",
-    "main": "demo-fastqc-wf",
+    "main": "demo-fastqc1-wf",
     "scripts": {
         "test": "wfpm test"
     },
@@ -18,7 +18,7 @@
     },
     "dependencies": [
         "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.3.0",
-        "github.com/icgc-tcga-pancancer/demo-pkgs1/demo-fastqc@0.2.0"
+        "github.com/icgc-tcga-pancancer/demo-pkgs1/demo-fastqc1@0.1.0"
     ],
     "devDependencies": [],
     "contributors": [
