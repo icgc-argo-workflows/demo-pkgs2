@@ -1,6 +1,6 @@
 {
     "name": "demo-fastqc-wf",
-    "version": "0.2.0",
+    "version": "0.2.0.1",
     "description": "FastQC workflow",
     "main": "demo-fastqc-wf",
     "scripts": {
