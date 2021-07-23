@@ -2,4 +2,4 @@ project_name: demo-pkgs2
 license: MIT
 repo_type: git
 repo_server: github.com
-repo_account: icgc-tcga-pancancer
+repo_account: icgc-argo-workflows

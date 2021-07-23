@@ -1,6 +1,6 @@
 {
     "name": "demo-fastqc-wf",
-    "version": "0.2.0",
+    "version": "0.2.0.1",
     "description": "FastQC workflow",
     "main": "demo-fastqc-wf",
     "scripts": {
@@ -14,11 +14,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/icgc-tcga-pancancer/demo-pkgs2.git"
+        "url": "https://github.com/icgc-argo-workflows/demo-pkgs2.git"
     },
     "dependencies": [
         "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.3.0",
-        "github.com/icgc-tcga-pancancer/demo-pkgs1/demo-fastqc@0.2.0"
+        "github.com/icgc-argo-workflows/demo-pkgs1/demo-fastqc@0.2.0.1"
     ],
     "devDependencies": [],
     "contributors": [
@@ -28,6 +28,6 @@
         }
     ],
     "license": "MIT",
-    "bugReport": "https://github.com/icgc-tcga-pancancer/demo-pkgs2/issues",
-    "homepage": "https://github.com/icgc-tcga-pancancer/demo-pkgs2#readme"
+    "bugReport": "https://github.com/icgc-argo-workflows/demo-pkgs2/issues",
+    "homepage": "https://github.com/icgc-argo-workflows/demo-pkgs2#readme"
 }
